@@ -2,12 +2,12 @@
 <html>
 	<head>
 		<meta charset=UTF-8>
+		<link href="https://fonts.googleapis.com/css?family=Bree+Serif|Montserrat|Notable|Pacifico|Open+Sans" rel="stylesheet">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 	</head>
 	
 	<body>
-		<link href="https://fonts.googleapis.com/css?family=Bree+Serif|Montserrat|Notable|Pacifico|Open+Sans" rel="stylesheet">
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-		<table border=1 align=center width=40%>
+		<table border=1 align=center width=55%>
 			<tr height=300px bgcolor=#62bcdb align=center>
 				<td>
 					<p><img width=100 height=100 src="http://www.myiconfinder.com/uploads/iconsets/256-256-f52fe3a323539563e59a6ea6cadbc196.png"></p>
@@ -33,7 +33,7 @@
 									</tr>
 									<tr height="300px">
 										<td width="47%">
-											<table border=1 align=center width=100%>
+											<table border=0 align=center width=100%>
 												<tr>
 													<td height=150><img height=100% width=100% src="https://2j6zd017o3t41q4gfr1ud6ns-wpengine.netdna-ssl.com/wp-content/uploads/2017/07/LCOM_Website_Blog_CodingforNonTechTeacher_July17.png"</td>
 												</tr>
@@ -46,7 +46,7 @@
 										</td>
 										<td width="6%"></td>
 										<td width="47%">
-											<table border=1 align=center width=100%>
+											<table border=0 align=center width=100%>
 												<tr>
 													<td height=150><img width=100% height=100% src="http://www.androidpolice.com/wp-content/uploads/2017/06/nexus2cee_animated-clock-728x350.png"></td>
 												</tr>
@@ -64,15 +64,24 @@
 					</table>
 				</td>
 			</tr>
-			<tr bgcolor=#f7504b>
+			<tr bgcolor=#f7504b height=100px>
 				<td>
-					<table border=1 width=800 align=center cellspacing="30px" cellpadding="0px">
+					<table border=1 width=90% align=center height=50px>
 						<tr>
-							<td width=60%>
-							<p align=left><font color=white size="2" face="Open Sans">&reg; Someone, somewhere 2013<br/><u>Unsubscribe</u> to this newslatter instantlu</font></p>
+							<td width=60%><font color=white size="2" face="Open Sans">&reg; Someone, somewhere 2013<br/><u>Unsubscribe</u> to this newslatter instantlu</font>
 							</td>
-							<td>
-							<p align=right><font size=20 color=#b30000><i class="fab fa-twitter-square"></i> <i class="fab fa-facebook-square"></i></font></p></td>
+							<td align=right>
+								<font size=2 color=#b30000> 
+									<span class="fa-stack fa-lg">
+										<i class="far fa-circle fa-stack-2x"></i>
+										<i class="fab fa-twitter fa-stack-1x"></i>
+									</span>
+									<span class="fa-stack fa-lg">
+										<i class="far fa-circle fa-stack-2x"></i>
+										<i class="fab fa-facebook-f fa-stack-1x"></i>
+									</span>
+								</font>
+							</td>
 						</tr>
 					</table>
 				</td>
