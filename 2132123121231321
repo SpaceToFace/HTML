@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<style>
+			@keyframes animacja {
+				0% { transform:translateX(100%); }
+				100% { transform:translateX(-100%); }
+			}
+			@keyframes animacja2 {
+				0% { transform:translateX(100%); }
+				100% { transform:translateX(-100%); }
+			}
+			@keyframes animacja3 {
+				0% { transform:translateX(100%); }
+				100% { transform:translateX(-100%); }
+			}
+			@keyframes animacja4 {
+				0% { transform:translateX(100%); }
+				100% { transform:translateX(-100%); }
+			}
+			.contener {
+				border: solid 2px black;
+				width: auto;
+				overflow:hidden;
+				height: 100px;
+			}
+			.tekst {
+				animation:animacja 5s linear infinite;
+				margin:0;
+				font-size: 30px;
+				color: white;
+				padding-top: 30px;
+			}
+			.tekst2 {
+				animation:animacja2 5s linear infinite;
+				animation
+				margin:0;
+				font-size: 30px;
+				color: white;
+				padding-top: 30px;
+			}
+			.tekst3 {
+				animation:animacja3 5s linear infinite;
+				margin:0;
+				font-size: 30px;
+				color: white;
+				padding-top: 30px;
+			}
+			.tekst4 {
+				animation:animacja4 5s linear infinite;
+				margin:0;
+				font-size: 30px;
+				color: white;
+				padding-top: 30px;
+			}
+			.kwadrat1 {
+				position: relative;
+				top: -102px;
+				left: 2px;
+				height:100px;
+				width: 200px;
+				background-color: red;
+				z-index: 3;
+				color: white;
+				font-size: 30px;
+			}
+			.trojkat {
+			    width: 0;
+				height: 0;
+				border-top: 50px solid transparent;
+				border-left: 100px solid red;
+				border-bottom: 50px solid transparent;
+				position: absolute;
+				top: 10px;
+				left: 210px;
+				z-index: 3;
+			}
+			.kwadrat2 {
+				position: relative;
+				top: -202px;
+				left: 2px;
+				height:100px;
+				width: 1260px;
+				background-color: black;
+				z-index: -1;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="contener">
+			<div class="tekst">DissStream vs Xayoo walka wieczoru już jutro w PolsatGames!</div>
+			<div class="tekst2">ZARTOWALEM XDDDDD</div>
+			<div class="tekst3">XDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD</div>
+			<div class="tekst4">XDXDXDXDXDXDXDXDXDXDXDXDDXXDXDXDXDXDXDXDXDXDXDXDXDXDXD</div>
+		</div>
+			<div class="kwadrat1">Braking news</div>
+			<div class="trojkat"></div>
+			<div class="kwadrat2"></div>
+	</body>
+</html>
